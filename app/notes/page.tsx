@@ -6,3 +6,5 @@ export default async function Page() {
 
     return <pre>{JSON.stringify(notes, null, 2)}</pre>
 }
+
+export const runtime = 'edge'

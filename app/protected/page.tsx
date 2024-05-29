@@ -55,3 +55,5 @@ export default async function ProtectedPage() {
     </div>
   );
 }
+
+export const runtime = 'edge'
